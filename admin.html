@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Bootstrap Demo</title>
+    <!--引入Bootstrap-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/myadmin.css" rel="stylesheet">
+</head>
+<body>
+<!--顶部导航栏-->
+<nav class="navbar navbar-default">
+    <!--<div class="container-fluid">流媒体-->
+    <div class="container">
+        <!--顶部小屏幕导航按钮和logo-->
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand">
+                <img src="./img/administrator.png">
+            </a>
+            <a href="index.html" class="navbar-brand">Admin</a>
+        </div>
+        <!--顶部小屏幕导航按钮和logo-->
+
+        <!--导航-->
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="admin.html"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;后台首页</a></li>
+                <li><a href="uerList.html"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;用户管理</a></li>
+                <li><a href="content.html"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;内容管理</a></li>
+                <li><a href="tags.html"><span class="glyphicon glyphicon-tags"></span>&nbsp;&nbsp;标签管理</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" type="text" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        admin
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="admin.html"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;前台首页</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;个人主页</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-cog"></span>&nbsp;&nbsp;个人设置</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-credit-card"></span>&nbsp;&nbsp;账户中心</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;我的收藏</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#bbs"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;退出</a></li>
+            </ul>
+        </div>
+        <!--导航-->
+    </div>
+</nav>
+
+<!--警告框-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="alert alert-warning alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <strong>Warning!</strong> Better check yourself, you're not looking too good.Better check yourself, you're not looking too good
+               <p>
+                   <button type="button" class="btn btn-danger">立即修复</button>
+                   <button type="button" class="btn btn-danger">稍后处理</button>
+               </p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">网站数据统计</div>
+                <div class="panel-body">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>流量统计</th>
+                                <th>昨日</th>
+                                <th>今日</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>注册会员</td>
+                                <td>200</td>
+                                <td>300</td>
+                            </tr>
+                            <tr>
+                                <td>注册会员</td>
+                                <td>200</td>
+                                <td>300</td>
+                            </tr>
+                            <tr>
+                                <td>注册会员</td>
+                                <td>200</td>
+                                <td>300</td>
+                            </tr>
+                            <tr>
+                                <td>注册会员</td>
+                                <td>200</td>
+                                <td>300</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">网站流量统计</div>
+                    <ul class="list-group">
+                        <li class="list-group-item"><span class="glyphicon glyphicon-list-alt">
+                            </span>&nbsp;&nbsp;<a>流量统计流量统计流量统计<small class="pull-right">2016-06-06</small></a>
+                        </li>
+                        <li class="list-group-item"><span class="glyphicon glyphicon-list-alt">
+                            </span>&nbsp;&nbsp;<a>流量统计流量统计流量统计<small class="pull-right">2016-06-06</small></a>
+                        </li>
+                        <li class="list-group-item"><span class="glyphicon glyphicon-list-alt">
+                            </span>&nbsp;&nbsp;<a>流量统计流量统计流量统计<small class="pull-right">2016-06-06</small></a>
+                        </li>
+                        <li class="list-group-item"><span class="glyphicon glyphicon-list-alt">
+                            </span>&nbsp;&nbsp;<a>流量统计流量统计流量统计<small class="pull-right">2016-06-06</small></a>
+                        </li>
+                        <li class="list-group-item"><span class="glyphicon glyphicon-list-alt">
+                            </span>&nbsp;&nbsp;<a>流量统计流量统计流量统计<small class="pull-right">2016-06-06</small></a>
+                        </li>
+                        <li class="list-group-item"><span class="glyphicon glyphicon-list-alt">
+                            </span>&nbsp;&nbsp;<a>流量统计流量统计流量统计<small class="pull-right">2016-06-06</small></a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">流量统计流量统计流量统计</div>
+                <div class="panel-body">
+                    <canvas id="canvas">Your browser did not support Canvas,please upgrade!</canvas>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">服务器状态展示</div>
+                <div class="panel-body">
+                    <p>内存使用率：40%</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                        </div>
+                    </div>
+                    <p>内存使用率: 20%</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                        </div>
+                    </div>
+                    <p>内存使用率: 60%</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                        </div>
+                    </div>
+                    <p>内存使用率: 80%</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">留言板
+                    <div class="panel-body">
+                        <div class="col-md-7">
+                            <!--媒体对象-->
+                            <div class="media well">
+                                <div class="media-body">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object wh64" src="./img/a.png" alt="">
+                                    </a>
+                                </div>
+                                    <h4 class="media-heading">张三</h4>
+                                    你好！
+                                </div>
+                            </div>
+                            <!--媒体对象-->
+                            <div class="media well">
+                                <div class="media-body text-right">
+                                    <h4 class="media-heading">李四</h4>
+                                    你好！
+                                </div>
+                                <div class="media-right">
+                                    <a href="#">
+                                        <img class="media-object wh64" src="./img/i.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <!--媒体对象-->
+                            <div class="media well">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object wh64" src="./img/a.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">张三</h4>
+                                    你好！
+                                </div>
+                            </div>
+                            <!--媒体对象-->
+                            <div class="media well">
+                                <div class="media-body text-right">
+                                    <h4 class="media-heading">李四</h4>
+                                    你好！
+                                </div>
+                                <div class="media-right">
+                                    <a href="#">
+                                        <img class="media-object wh64" src="./img/i.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <form action="#" method="post">
+                                <div class="form-group">
+                                    <label for="message">请输入留言内容</label>
+                                    <textarea id="message" rows="3" class="form-control" placeholder="请输入留言内容..."></textarea>
+                                    <!--<input type="submit" value="留言">-->
+                                    <button class="btn btn-default btnCls">留言</button>
+                                </div>
+                            </form>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">团队联系手册</div>
+                                <div class="panel-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">张小江：<span class="glyphicon glyphicon-phone"></span>12345621456</li>
+                                        <li class="list-group-item">李大牛：<span class="glyphicon glyphicon-phone"></span>12345621456</li>
+                                        <li class="list-group-item">王明：<span class="glyphicon glyphicon-phone"></span>12345621456</li>
+                                        <li class="list-group-item">李三：<span class="glyphicon glyphicon-phone"></span>12345621456</li>
+                                        <li class="list-group-item">张五：<span class="glyphicon glyphicon-phone"></span>12345621456</li>
+                                        <li class="list-group-item">赵六：<span class="glyphicon glyphicon-phone"></span>12345678965&nbsp;&nbsp;<span class="glyphicon glyphicon-phone-alt">客服</span>&nbsp;029-12345678</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--contact-->
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>Copyright&nbsp;©&nbsp;2016-2017&nbsp;https://blog.csdn.net/qyl_0316</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer-->
+<script type="text/javascript">
+
+</script>
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件-->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件-->
+    <script src="js/Chart.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件-->
+    <script src="js/script.js"></script>
+</body>
+</html>

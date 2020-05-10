@@ -1,0 +1,62 @@
+body {
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+.navbar-default {
+    border-color: #e7e7e7;
+    background: #f8f8f8;
+}
+.container {
+    padding: 5px 0px;
+}
+.navbar-brand > img {
+    margin-top: -14px;
+}
+.wh64 {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+}
+/*input[type="submit"] {
+    margin-top: 10px;
+    width: 25%;
+    color: #fff;
+    background: #4ada95;
+}*/
+.page-header {
+    margin-top: 0px;
+    font-size: 22px;
+}
+
+.btnCls {
+    margin-top: 10px;
+    width: 25%;
+    /*color: #fff;*/
+}
+.alert {
+    margin: 3px 0;
+}
+.alert p{
+    margin-top: 15px;
+}
+.userSearchCls {
+    border: 1px solid #ece6e6;
+    border-top: none;
+    padding: 10px;
+}
+
+/*footer*/
+footer {
+    background: #f8f8f8;
+    text-align: center;
+    font-weight: 400;
+    padding: 20px;
+}
+.mt15{
+    margin-top: 15px;
+}
+.tagsCls {
+    padding: 15px;
+}
+.alert {
+    margin: 0 10px 10px 0;
+}
